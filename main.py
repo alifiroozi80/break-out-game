@@ -26,8 +26,7 @@ for i in range(-390, 391, 60):
         box.color("white")
         boxes.append(box)
 
-game_is_on = True
-while game_is_on:
+while True:
     screen.update()
     ball.move()
 
